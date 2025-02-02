@@ -55,7 +55,7 @@ output "private_data_subnet_az1_id" {
 }
 
 # export the private data subnet az2 id
-output "public_subnet_az2_id" {
+output "public_data_subnet_az2_id" {
   value = aws_subnet.private_data_subnet_az2.id
 
 }
